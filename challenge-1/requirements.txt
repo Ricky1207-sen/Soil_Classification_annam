@@ -1,1 +1,10 @@
-
+python
+kaggle
+scikit-learn
+pandas
+numpy
+Pillow
+torch
+torchvision
+timm
+tqdm
