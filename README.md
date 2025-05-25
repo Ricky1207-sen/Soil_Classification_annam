@@ -61,7 +61,7 @@ I used the **ConvNeXt-Tiny** model, a modern convolutional architecture that has
 
 On the validation set:
 
-- **Minimum F1-score**: 
+- **Minimum F1-score**: 1.000
 - Confusion matrix and per-class F1-scores are plotted in the notebook to visualize performance across soil types.
 
 ---
