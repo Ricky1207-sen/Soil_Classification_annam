@@ -61,7 +61,7 @@ I used the **ConvNeXt-Tiny** model, a modern convolutional architecture that has
 
 On the validation set:
 
-- **Minimum F1-score**: _(fill this in from your notebook results)_
+- **Minimum F1-score**: 
 - Confusion matrix and per-class F1-scores are plotted in the notebook to visualize performance across soil types.
 
 ---
@@ -111,9 +111,9 @@ Please refer to the code comments for additional insights on decisions and tunin
 THE SECOND CHALLENGE:
 
 
-# 🌱 Soil Image Classification Challenge
+#  Soil Image Classification Challenge
 
-## 🧭 Overview
+##  Overview
 
 The **Soil Image Classification Challenge** is a machine learning competition organized by **Annam.ai at IIT Ropar**. The objective is to build a classifier that determines whether an input image contains **soil** or **non-soil** content using visual features.
 
@@ -122,12 +122,12 @@ The **Soil Image Classification Challenge** is a machine learning competition or
 
 ---
 
-## 📁 Dataset Description
+##  Dataset Description
 
-### 🧪 Objective
+###  Objective
 Predict whether an image is a soil image (`label = 1`) or not (`label = 0`).
 
-### 📂 Structure
+###  Structure
 
 - **Train Set**  
   - Images located in `train/`  
@@ -148,7 +148,7 @@ Note: For this binary classification, all above types are treated equally as “
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 This solution uses **MobileNetV2**, a lightweight convolutional neural network pretrained on ImageNet.
 
@@ -181,7 +181,7 @@ This solution uses **MobileNetV2**, a lightweight convolutional neural network p
 
 ---
 
-## 🧪 Evaluation Metric
+##  Evaluation Metric
 
 - **F1 Score**: Balances Precision and Recall
 - Encourages strong, **balanced classification performance**
@@ -191,7 +191,7 @@ This solution uses **MobileNetV2**, a lightweight convolutional neural network p
 
 ---
 
-## 📤 Submission Format
+##  Submission Format
 
 Submit a `submission.csv` with columns:
 
@@ -212,7 +212,7 @@ Also include your:
 
 ---
 
-## 🚀 Reproducibility
+##  Reproducibility
 
 To reproduce the results:
 
@@ -227,15 +227,15 @@ Model and prediction logic is implemented in [`mobilenetupdated.ipynb`](./mobile
 
 ---
 
-## 🏁 Results
+##  Results
 
-- Achieved **Validation F1-score ≈ 0.XX** *(replace with actual score printed by notebook)*
+- Achieved F1 Score = 1.000
 - Efficient training due to lightweight MobileNet backbone
 - Robust handling of imbalance via synthetic negatives
 
 ---
 
-## 🛠️ Tools & Libraries
+##  Tools & Libraries
 
 - Python, NumPy, Pandas, Matplotlib
 - TensorFlow / Keras
@@ -244,7 +244,7 @@ Model and prediction logic is implemented in [`mobilenetupdated.ipynb`](./mobile
 
 ---
 
-## 🧾 Notes
+##  Notes
 
 - Avoid training on test data
 - Ensure predictions are reproducible
@@ -252,6 +252,6 @@ Model and prediction logic is implemented in [`mobilenetupdated.ipynb`](./mobile
 
 ---
 
-## 🏅 Acknowledgements
+##  Acknowledgements
 
 Organized by **Annam.ai** in collaboration with **IIT Ropar**. This challenge fosters practical application of AI in agriculture and environmental sciences.
